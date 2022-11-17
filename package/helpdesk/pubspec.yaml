@@ -1,0 +1,42 @@
+name: helpdesk
+description: A new Flutter package project.
+version: 0.0.1
+homepage: SplashScreen
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  get_storage: ^2.0.3
+  get: ^4.6.1
+  shimmer: ^2.0.0
+  dio: ^4.0.4
+  dropdown_search: ^2.0.1
+  multi_select_flutter: ^4.1.2
+  cached_network_image: ^3.2.0
+  animated_widgets: ^1.1.0
+  easy_image_viewer: ^1.0.4
+  card_swiper: ^2.0.1
+
+  i2iutils:
+    path: ../i2iutils
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
